@@ -12,6 +12,12 @@ focusing on ease of use.
 ```sh
 composer require lyal/checkr
 ```
+```php
+
+add Lyal\Checkr\Laravel\CheckrServiceProvider::class, to config/app.php
+then 
+php artisan vendor:publish --provider="Lyal\Checkr\Laravel\CheckrServiceProvider"
+```
 
 # Basic Usage
 
